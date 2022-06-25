@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding-top: 200px;
+  
+ }
+
+
+
+ .Card{
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+
+ .Card p {
+  text-align: right;
+ }
+
+
+ .Card button{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  
+ }
