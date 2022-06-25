@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import phrases from "./Phrases.json"
+import phrases from "./phrases.json"
 const Card = () => {
 
     const colors = [
@@ -12,7 +12,7 @@ const Card = () => {
     ];
 
 
-
+    
 
     const random = Math.floor(Math.random() * phrases.length);
     const [index, setIndex] = useState(random);
@@ -24,7 +24,7 @@ const Card = () => {
   
     const randomColorIndex = Math.floor(Math.random() * colors.length);
     const color = colors[randomColorIndex];
-    // @ts-ignore
+   
     document.body.style = `background: ${color}`;
 
 
