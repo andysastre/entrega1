@@ -36,7 +36,7 @@ const Card = () => {
 
         <div className='Card' style={{color: color}}>
             <h2><i class="fa-solid fa-quote-left"></i>{phrases[index].quote}</h2>
-            <p>{phrases[index].author}{"."}</p>
+            <p>{"-"}{phrases[index].author}{"."}</p>
             <button onClick={changePhrase}> <i class="fa-solid fa-lightbulb-on" style={{color: color}}></i></button>
         </div>
     );
